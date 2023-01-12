@@ -35,15 +35,12 @@ public class Controller : MonoBehaviour
         var velocity = horizontalRotation * new Vector3(horizontal, 0, vertical).normalized;
 
 
-        if (Input.GetKeyDown("space"))
+        if (!isJumping && Input.GetKeyDown("space"))
         {
-            if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
-            {
-                rb.velocity = Vector3.up * jumpPower;
-                // ★追加
-                isJumping = true;
-            }
+            anim.SetBool("isJumping", true);
+            rb.velocity = Vector3.up * jumpPower;
         }
+
 
         //???x??????
         var speed = Input.GetKey(KeyCode.LeftShift) ? 2: 1;
@@ -65,8 +62,9 @@ public class Controller : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            isJumping = false;
+            anim.SetBool("isJumping", false);
         }
-    }
 
+    }
+     
 }

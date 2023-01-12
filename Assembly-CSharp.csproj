@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F3B658AF-F15F-0BE5-0F38-906A64DE28A4}</ProjectGuid>
+    <ProjectGuid>{43A99E94-45FC-4B35-02A0-9427E3CCABC0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -978,27 +978,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Skybox3DRuntime.csproj">
-      <Project>{1D1D94BB-4ED2-02C9-53D1-89BD7614496B}</Project>
+      <Project>{CA337D2D-29ED-8F8D-78CF-8327EF93B4F0}</Project>
       <Name>Skybox3DRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="PackageManagerCheck.csproj">
-      <Project>{B2BF4132-7DF7-043C-07FD-E11099E754B5}</Project>
+      <Project>{90D05F78-6AC7-C6D2-0269-F7B2A6294F45}</Project>
       <Name>PackageManagerCheck</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{845BF344-3CD8-7D14-350B-02E12BB420B0}</Project>
+      <Project>{F5156FA0-3E1B-CA2F-A9D2-81E536B80D60}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{02EC0166-A6A2-0F0E-1931-126DBF31D42C}</Project>
+      <Project>{F30F404A-377B-3DE1-934B-A9541630AE82}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleSFXRuntime.csproj">
-      <Project>{B70A3BA8-A664-B8B2-26F2-A04B0721F451}</Project>
+      <Project>{D3D4679C-6227-DEC0-D59C-EB4B79D7B1DF}</Project>
       <Name>SimpleSFXRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="WorldBuildingRuntime.csproj">
-      <Project>{57F2C466-0495-8747-43D8-5FF7B0ED972D}</Project>
+      <Project>{EC24CA0C-92DE-20E1-1503-FC4C5B325008}</Project>
       <Name>WorldBuildingRuntime</Name>
     </ProjectReference>
   </ItemGroup>
